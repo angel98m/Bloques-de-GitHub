@@ -1,0 +1,61 @@
+ h1 {
+    color: rgb(54, 54, 216);
+    text-align: center;
+ }
+ 
+ nav {
+    padding: 10px;
+    margin: 20px;
+}
+
+nav{
+    /* height: 200px; */
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    gap: 15px;
+    /* flex-start: Izquierda - renglon / Arriba - columna
+       center: centro
+       flex-end: Derecha - renglon / Abajo - columna */
+    /*align-items: center;*/
+}
+
+.status , .homer , .plumber  {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+section {
+    padding: 10px;
+    margin: 20px;
+}
+
+section {
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    gap: 15px;
+}
+
+.guy , .herme {
+    width: 150px;
+    height: 150px;
+}
+
+
+main    {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    gap: 15px;
+}
+
+.gato1 , .drod , .cat  {
+    width: 150px;
+    height: 150px;
+}
+
